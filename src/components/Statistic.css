@@ -1,0 +1,13 @@
+.app__graphs {
+    background-color: white;
+    z-index: 0;
+    justify-content: space-around;
+    position: relative;
+    transition: position 0.5s, width 0.5s, height 0.5s;
+}
+
+@media (max-width: 1200px) { 
+    .app__graphs {
+      margin-left: 20px;
+    }
+}

@@ -1,0 +1,52 @@
+.chaticon {
+  transition: color 0.5s ease;
+  color: black;
+  cursor: pointer;
+}
+
+.chaticon:hover {
+  color: white;
+}
+
+.chaticon:active {
+  color: red;
+  cursor: wait;
+}
+
+.chaticon:active:after {
+  color: transparent;
+  cursor: pointer;
+}
+
+.learning-options-container {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.learning-option-button {
+  padding: 0.5rem;
+  border-radius: 25px;
+  background: transparent;
+  border: 1px solid green;
+  margin: 3px;
+  cursor: pointer;
+}
+
+.ergebnis {
+  color: white;
+  background-color: blue;
+}
+
+.ergebnis-container {
+  margin-left: 53px;
+  max-height: 450px !important;
+}
+
+.bubbles {
+  background: transparent;
+  margin: 3px;
+  padding: 0.5rem;
+  border: 1px solid green;
+  border-radius: 15px;
+}

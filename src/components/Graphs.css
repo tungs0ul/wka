@@ -1,0 +1,92 @@
+.graphs {
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.5);
+  margin: 0px 20px 10px 0;
+  background-color: white;
+  justify-content: space-between;
+  max-width: 1000;
+  flex-direction: column;
+}
+
+.graphs__header {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 750px) {
+  .graphs {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .graphs__header {
+    flex-direction: column;
+  }
+}
+
+.recharts-wrapper {
+  margin: 0 auto;
+}
+
+.noselect {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 auto;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
+
+.noDataDiv {
+  width: 700px;
+  height: 350px;
+}
+
+.modebar {
+  display: none !important;
+}
+
+.icons {
+  transition: color 0.5s ease;
+  color: black;
+  cursor: pointer;
+}
+.icons:hover {
+  color: #52a070;
+}
+
+.click-able {
+  cursor: pointer;
+  transition: color 0.5s, cursor 0.2s;
+}
+
+.click-able:active {
+  color: red;
+  cursor: wait;
+}
+
+.click-able:active:after {
+  color: transparent;
+  cursor: pointer;
+}
+
+.custom-tooltip {
+  text-align: left;
+  background-color: white;
+  border: groove;
+  border-width: thin;
+  padding: 5px;
+}
+
+.legend-name {
+  text-transform: capitalize;
+}

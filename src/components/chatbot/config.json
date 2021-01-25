@@ -1,0 +1,99 @@
+{
+  "searchOption": {
+    "options": [
+      {
+        "text": "Leistung",
+        "handler": "handleLeistung",
+        "id": 1
+      },
+      {
+        "text": "Baudauer",
+        "handler": "handleBaudauer",
+        "id": 2
+      },
+      {
+        "text": "Graphen",
+        "handler": "handleGraphs",
+        "id": 3
+      }
+    ]
+  },
+
+  "Leistung": {
+    "options": [
+      {
+        "text": "Maximale Leistung",
+        "handler": "handleMaxLeistung",
+        "id": 1
+      },
+      {
+        "text": "Minimale Leistung",
+        "handler": "handleMinLeistung",
+        "id": 2
+      }
+    ]
+  },
+
+  "Baudauer": {
+    "options": [
+      {
+        "text": "Maximale Baudauer",
+        "handler": "handleMaxBaudauer",
+        "id": 1
+      },
+      {
+        "text": "Minimale Baudauer",
+        "handler": "handleMinBaudauer",
+        "id": 2
+      }
+    ]
+  },
+
+  "Graphen": {
+    "options": [
+      {
+        "text": "Leistungsgraph",
+        "handler": "handleLeistungsGraph",
+        "id": 1
+      },
+      {
+        "text": "Naben-Rotor-Graph",
+        "handler": "handleNabenRotorGraph",
+        "id": 2
+      },
+      {
+        "text": "Postleitzahl-Graph",
+        "handler": "handlePLZGraph",
+        "id": 3
+      },
+      {
+        "text": "Baudauer-Graph",
+        "handler": "handleBaudauerGraph",
+        "id": 4
+      },
+      {
+        "text": "Baudauer über Zeit",
+        "handler": "handleBaudauerProZeitGraph",
+        "id": 5
+      }
+    ]
+  },
+
+  "MinLeistung": { "option": "leistung", "value": "min", "unit": "MWh" },
+
+  "MaxLeistung": { "option": "leistung", "value": "max", "unit": "MWh" },
+
+  "MinBaudauer": { "option": "baudauer", "value": "min", "unit": "Tage" },
+
+  "MaxBaudauer": { "option": "baudauer", "value": "max", "unit": "Tage" },
+
+  "LeistungsGraph": { "index": 0, "name": "Leistungsgraph" },
+
+  "NabenRotorGraph": { "index": 1, "name": "NabenRotorgraph" },
+
+  "PLZGraph": { "index": 2, "name": "PLZGraph" },
+
+  "Baudauergraph": { "index": 3, "name": "Baudauergraph" },
+
+  "BaudauerProZeitgraph": { "index": 4, "name": "BaudauerProZeitgraph" }
+}

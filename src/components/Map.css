@@ -1,0 +1,22 @@
+.map {
+    height: 735px;
+    margin: 0px 10px 0 20px;
+    padding: 0.2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 0;
+}
+
+@media (max-width: 1200px) {
+    .map {
+        height: 500px;
+        margin-top: -6px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+.map .leaflet-container {
+    height: 100%;
+}

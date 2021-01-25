@@ -1,0 +1,18 @@
+import React from "react";
+import ReactDOM from "react-dom";
+import Wka from "./Wka";
+
+const wkaProps = { option: "leistung", value: "max", unit: "MWh" };
+
+it("wkaRenderResult", () => {
+  const div = document.createElement("div");
+
+  ReactDOM.render(
+    <Wka
+      option={wkaProps.option}
+      value={wkaProps.value}
+      unit={wkaProps.unit}
+    />,
+    div
+  );
+});
